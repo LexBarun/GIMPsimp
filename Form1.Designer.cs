@@ -54,7 +54,7 @@ namespace GIMPsimp
             this.captionLists.Name = "captionLists";
             this.captionLists.Size = new System.Drawing.Size(250, 154);
             this.captionLists.TabIndex = 5;
-            this.captionLists.Text = "AAAAAAAAAAAAAAAAA\nHANAHANAHANAHANA\nWANGYWANGYWANGY\nHUHAHUHAHUHAHUHA";
+            this.captionLists.Text = "Put your transcript text here.";
             // 
             // doubleLineType
             // 
