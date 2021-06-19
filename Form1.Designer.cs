@@ -35,14 +35,18 @@ namespace GIMPsimp
             this.singleLineType = new System.Windows.Forms.RadioButton();
             this.captionTypeSelector = new System.Windows.Forms.GroupBox();
             this.cursorSettings = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.inputFirstName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lineCounter = new System.Windows.Forms.Label();
             this.captionTypeSelector.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(118, 172);
+            this.buttonStart.Location = new System.Drawing.Point(118, 201);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(144, 74);
+            this.buttonStart.Size = new System.Drawing.Size(144, 45);
             this.buttonStart.TabIndex = 4;
             this.buttonStart.Text = "START!";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -54,7 +58,8 @@ namespace GIMPsimp
             this.captionLists.Name = "captionLists";
             this.captionLists.Size = new System.Drawing.Size(250, 154);
             this.captionLists.TabIndex = 5;
-            this.captionLists.Text = "AAAAAAAAAAAAAAAAA\nHANAHANAHANAHANA\nWANGYWANGYWANGY\nHUHAHUHAHUHAHUHA";
+            this.captionLists.Text = "Put your transcrip text here.";
+            this.captionLists.TextChanged += new System.EventHandler(this.captionLists_TextChanged);
             // 
             // doubleLineType
             // 
@@ -100,11 +105,51 @@ namespace GIMPsimp
             this.cursorSettings.UseVisualStyleBackColor = true;
             this.cursorSettings.Click += new System.EventHandler(this.cursorSettings_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(152, 128);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "label1";
+            // 
+            // inputFirstName
+            // 
+            this.inputFirstName.Location = new System.Drawing.Point(192, 172);
+            this.inputFirstName.Name = "inputFirstName";
+            this.inputFirstName.Size = new System.Drawing.Size(70, 23);
+            this.inputFirstName.TabIndex = 12;
+            this.inputFirstName.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(119, 175);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 15);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "First Name:";
+            // 
+            // lineCounter
+            // 
+            this.lineCounter.Location = new System.Drawing.Point(237, 15);
+            this.lineCounter.Name = "lineCounter";
+            this.lineCounter.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lineCounter.Size = new System.Drawing.Size(25, 15);
+            this.lineCounter.TabIndex = 13;
+            this.lineCounter.Text = "1";
+            this.lineCounter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(274, 286);
+            this.Controls.Add(this.lineCounter);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.inputFirstName);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cursorSettings);
             this.Controls.Add(this.captionTypeSelector);
             this.Controls.Add(this.captionLists);
@@ -117,6 +162,7 @@ namespace GIMPsimp
             this.captionTypeSelector.ResumeLayout(false);
             this.captionTypeSelector.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -127,6 +173,10 @@ namespace GIMPsimp
         private System.Windows.Forms.RadioButton singleLineType;
         private System.Windows.Forms.GroupBox captionTypeSelector;
         private System.Windows.Forms.Button cursorSettings;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox inputFirstName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lineCounter;
     }
 }
 

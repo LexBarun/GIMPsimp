@@ -41,9 +41,9 @@ namespace GIMPsimp
             this.label1 = new System.Windows.Forms.Label();
             this.labelY = new System.Windows.Forms.Label();
             this.labelX = new System.Windows.Forms.Label();
-            this.inputMoveLayerY = new System.Windows.Forms.TextBox();
+            this.inputBoldPosY = new System.Windows.Forms.TextBox();
             this.inputPathFTextY = new System.Windows.Forms.TextBox();
-            this.inputMoveLayerX = new System.Windows.Forms.TextBox();
+            this.inputBoldPosX = new System.Windows.Forms.TextBox();
             this.inputPathFTextX = new System.Windows.Forms.TextBox();
             this.inputNewPosY = new System.Windows.Forms.TextBox();
             this.inputDistri2Y = new System.Windows.Forms.TextBox();
@@ -89,16 +89,16 @@ namespace GIMPsimp
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 175);
+            this.label7.Location = new System.Drawing.Point(12, 59);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 15);
+            this.label7.Size = new System.Drawing.Size(31, 15);
             this.label7.TabIndex = 54;
-            this.label7.Text = "Move Text Layer Lower";
+            this.label7.Text = "Bold";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 147);
+            this.label8.Location = new System.Drawing.Point(12, 176);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 15);
             this.label8.TabIndex = 53;
@@ -107,7 +107,7 @@ namespace GIMPsimp
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 117);
+            this.label3.Location = new System.Drawing.Point(12, 146);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 15);
             this.label3.TabIndex = 52;
@@ -116,7 +116,7 @@ namespace GIMPsimp
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 89);
+            this.label4.Location = new System.Drawing.Point(12, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 15);
             this.label4.TabIndex = 51;
@@ -125,7 +125,7 @@ namespace GIMPsimp
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 59);
+            this.label2.Location = new System.Drawing.Point(12, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 15);
             this.label2.TabIndex = 50;
@@ -160,33 +160,33 @@ namespace GIMPsimp
             this.labelX.Text = "X";
             this.labelX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // inputMoveLayerY
+            // inputBoldPosY
             // 
-            this.inputMoveLayerY.Location = new System.Drawing.Point(255, 172);
-            this.inputMoveLayerY.Name = "inputMoveLayerY";
-            this.inputMoveLayerY.Size = new System.Drawing.Size(45, 23);
-            this.inputMoveLayerY.TabIndex = 46;
-            this.inputMoveLayerY.Text = "4096";
+            this.inputBoldPosY.Location = new System.Drawing.Point(255, 56);
+            this.inputBoldPosY.Name = "inputBoldPosY";
+            this.inputBoldPosY.Size = new System.Drawing.Size(45, 23);
+            this.inputBoldPosY.TabIndex = 46;
+            this.inputBoldPosY.Text = "4096";
             // 
             // inputPathFTextY
             // 
-            this.inputPathFTextY.Location = new System.Drawing.Point(255, 143);
+            this.inputPathFTextY.Location = new System.Drawing.Point(255, 172);
             this.inputPathFTextY.Name = "inputPathFTextY";
             this.inputPathFTextY.Size = new System.Drawing.Size(45, 23);
             this.inputPathFTextY.TabIndex = 45;
             this.inputPathFTextY.Text = "4096";
             // 
-            // inputMoveLayerX
+            // inputBoldPosX
             // 
-            this.inputMoveLayerX.Location = new System.Drawing.Point(204, 172);
-            this.inputMoveLayerX.Name = "inputMoveLayerX";
-            this.inputMoveLayerX.Size = new System.Drawing.Size(45, 23);
-            this.inputMoveLayerX.TabIndex = 44;
-            this.inputMoveLayerX.Text = "4096";
+            this.inputBoldPosX.Location = new System.Drawing.Point(204, 56);
+            this.inputBoldPosX.Name = "inputBoldPosX";
+            this.inputBoldPosX.Size = new System.Drawing.Size(45, 23);
+            this.inputBoldPosX.TabIndex = 44;
+            this.inputBoldPosX.Text = "4096";
             // 
             // inputPathFTextX
             // 
-            this.inputPathFTextX.Location = new System.Drawing.Point(204, 143);
+            this.inputPathFTextX.Location = new System.Drawing.Point(204, 172);
             this.inputPathFTextX.Name = "inputPathFTextX";
             this.inputPathFTextX.Size = new System.Drawing.Size(45, 23);
             this.inputPathFTextX.TabIndex = 43;
@@ -194,7 +194,7 @@ namespace GIMPsimp
             // 
             // inputNewPosY
             // 
-            this.inputNewPosY.Location = new System.Drawing.Point(255, 114);
+            this.inputNewPosY.Location = new System.Drawing.Point(255, 143);
             this.inputNewPosY.Name = "inputNewPosY";
             this.inputNewPosY.Size = new System.Drawing.Size(45, 23);
             this.inputNewPosY.TabIndex = 42;
@@ -202,7 +202,7 @@ namespace GIMPsimp
             // 
             // inputDistri2Y
             // 
-            this.inputDistri2Y.Location = new System.Drawing.Point(255, 85);
+            this.inputDistri2Y.Location = new System.Drawing.Point(255, 114);
             this.inputDistri2Y.Name = "inputDistri2Y";
             this.inputDistri2Y.Size = new System.Drawing.Size(45, 23);
             this.inputDistri2Y.TabIndex = 41;
@@ -210,7 +210,7 @@ namespace GIMPsimp
             // 
             // inputDistri1Y
             // 
-            this.inputDistri1Y.Location = new System.Drawing.Point(255, 56);
+            this.inputDistri1Y.Location = new System.Drawing.Point(255, 85);
             this.inputDistri1Y.Name = "inputDistri1Y";
             this.inputDistri1Y.Size = new System.Drawing.Size(45, 23);
             this.inputDistri1Y.TabIndex = 40;
@@ -226,7 +226,7 @@ namespace GIMPsimp
             // 
             // inputNewPosX
             // 
-            this.inputNewPosX.Location = new System.Drawing.Point(204, 114);
+            this.inputNewPosX.Location = new System.Drawing.Point(204, 143);
             this.inputNewPosX.Name = "inputNewPosX";
             this.inputNewPosX.Size = new System.Drawing.Size(45, 23);
             this.inputNewPosX.TabIndex = 38;
@@ -234,7 +234,7 @@ namespace GIMPsimp
             // 
             // inputDistri2X
             // 
-            this.inputDistri2X.Location = new System.Drawing.Point(204, 85);
+            this.inputDistri2X.Location = new System.Drawing.Point(204, 114);
             this.inputDistri2X.Name = "inputDistri2X";
             this.inputDistri2X.Size = new System.Drawing.Size(45, 23);
             this.inputDistri2X.TabIndex = 37;
@@ -242,7 +242,7 @@ namespace GIMPsimp
             // 
             // inputDistri1X
             // 
-            this.inputDistri1X.Location = new System.Drawing.Point(204, 56);
+            this.inputDistri1X.Location = new System.Drawing.Point(204, 85);
             this.inputDistri1X.Name = "inputDistri1X";
             this.inputDistri1X.Size = new System.Drawing.Size(45, 23);
             this.inputDistri1X.TabIndex = 36;
@@ -299,9 +299,9 @@ namespace GIMPsimp
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelY);
             this.Controls.Add(this.labelX);
-            this.Controls.Add(this.inputMoveLayerY);
+            this.Controls.Add(this.inputBoldPosY);
             this.Controls.Add(this.inputPathFTextY);
-            this.Controls.Add(this.inputMoveLayerX);
+            this.Controls.Add(this.inputBoldPosX);
             this.Controls.Add(this.inputPathFTextX);
             this.Controls.Add(this.inputNewPosY);
             this.Controls.Add(this.inputDistri2Y);
@@ -335,9 +335,9 @@ namespace GIMPsimp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelY;
         private System.Windows.Forms.Label labelX;
-        private System.Windows.Forms.TextBox inputMoveLayerY;
+        private System.Windows.Forms.TextBox inputBoldPosY;
         private System.Windows.Forms.TextBox inputPathFTextY;
-        private System.Windows.Forms.TextBox inputMoveLayerX;
+        private System.Windows.Forms.TextBox inputBoldPosX;
         private System.Windows.Forms.TextBox inputPathFTextX;
         private System.Windows.Forms.TextBox inputNewPosY;
         private System.Windows.Forms.TextBox inputDistri2Y;
